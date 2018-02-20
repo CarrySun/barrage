@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no"> -->
+  <script src="./dist/js/rem.min.js"></script>
+  <script src="./dist/js/barrage.min.js"></script>
+  <link rel="stylesheet" href="./dist/css/styles.min.css" />
+  <title>barrage</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="left">
+      <video class="video" src="./bear.mp4" controls="controls"></video>
+      <div id="barrageDiv">
+      </div>
+    </div>
+    <div class="right">
+      <div id="clear">清屏</div>
+      <div id="list" class="list">
+      </div>
+      <div class="input">
+        <textarea maxlength="28" id="content" placeholder="弹幕" rows="2" cols="20"></textarea>
+        <div id="submit">发送</div>
+        <!-- <input type="button" id="submit" value="发送" /> -->
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

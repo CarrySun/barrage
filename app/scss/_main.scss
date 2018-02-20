@@ -1,0 +1,88 @@
+/*
+*main
+*/
+
+html{
+  width: 100%;
+}
+body{
+  min-width: 1000px;
+}
+.container{
+  margin-top: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.left{
+  position: relative;
+  margin-right: 10px;
+  width: 1100px;
+  height: 615px;
+  float: left;
+  border: 1px solid #fff;
+}
+.video{
+  width: 1100px;
+  height: 615px;
+}
+.right{
+  position: relative;
+  width: 300px;
+  float: left;
+  height: 615px;
+}
+.list{
+  height: 545px;
+  border: 1px solid pink;
+  margin-bottom: 10px;
+  overflow:auto
+}
+.listItem{
+  font-size: 14px;
+  padding: 5px 10px;
+  line-height: 25px;
+}
+#clear{
+  background: pink;
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  z-index: 5;
+  padding: 5px;
+  width: 34px;
+  border-radius: 5px;
+  color: #fff
+}
+#clear:hover{
+  opacity: 0.5;
+  cursor: pointer
+}
+.input{
+  height: 60px;
+  border: 1px solid pink;
+  display: flex;
+  justify-content: space-between
+}
+
+#content{
+  padding: 5px;
+  resize: none;
+  width: 75%;
+  height: 50px;
+  line-height: 25px;
+  overflow: hidden;
+}
+#submit{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  height: 100%;
+  color: #fff;
+  background: pink;
+}
+#submit:hover{
+  cursor: pointer;
+  opacity: 0.5;
+}

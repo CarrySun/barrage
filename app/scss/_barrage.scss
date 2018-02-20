@@ -1,0 +1,31 @@
+/*
+*barrage
+*/
+#barrageDiv {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 1050px;
+  height: 540px;
+  overflow: hidden;
+}
+.barrage {
+  position: absolute;
+  z-index: 100;
+  color: #fff;
+  visibility: hidden;
+  animation: danmu 5s linear 0s 1;
+  font-size: 20px;
+  // height: 30px;
+  // border: 1px solid pink
+}
+@keyframes danmu {
+  from {
+    visibility: visible;
+    transform: translateX(1050px);
+  }
+  to {
+    visibility: visible;
+    transform: translateX(-100%);
+  }
+}
